@@ -142,7 +142,6 @@ public class Card_5 extends AppCompatActivity {
             }
 
             public void onTick(long millisUntilFinished) {
-                time.setText("" + ((millisUntilFinished/1000) - 1));
             }
         }.start();
     }
