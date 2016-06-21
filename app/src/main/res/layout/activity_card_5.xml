@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user8856.magic.Card_5">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/magic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="169dp"
+            android:id="@+id/image1"
+            android:layout_gravity="left|top" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="169dp"
+            android:id="@+id/image2"
+            android:layout_gravity="right|top" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="169dp"
+            android:id="@+id/image3"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="169dp"
+            android:id="@+id/image4"
+            android:layout_gravity="left|bottom" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="169dp"
+            android:id="@+id/image5"
+            android:layout_gravity="right|bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/time"
+            android:textColor="#ff0000"
+            android:layout_gravity="center_horizontal|bottom" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>
